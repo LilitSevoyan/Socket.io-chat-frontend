@@ -1,0 +1,69 @@
+.Main_Content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Main_Content .Register_Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 610px;
+  margin: 0 auto;
+}
+
+.Main_Content .Register_Content .Login_main {
+  flex-basis: 70%;
+}
+
+.Main_Content .log_reg {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  font-size: 22px;
+  width: 40%;
+  line-height: 60px;
+  align-items: center;
+  background-color: #b4afaf;
+}
+
+.Main_Content .log_reg .register {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Main_Content .log_reg .login {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Main_Content form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  justify-content: center;
+}
+
+.Main_Content form .errors {
+  color: red;
+}
+
+.Main_Content form input {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.Main_Content form button {
+  height: 40px;
+  margin: 30px 0;
+  background-color: #b4afaf;
+}
+
+.Main_Content a {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=login.css.map */

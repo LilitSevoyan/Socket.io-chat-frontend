@@ -1,0 +1,240 @@
+.messenger {
+  height: 100vh;
+  display: flex;
+}
+
+.messenger .chatMenu {
+  flex: 3.5;
+}
+
+.messenger .chatMenu .chatMenuInput {
+  width: 90%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.messenger .chatBox {
+  flex: 5.5;
+}
+
+.messenger .chatBox .chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.messenger .chatBox .chatBoxWrapper .chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.messenger .chatOnline {
+  flex: 3;
+}
+
+.messenger .chatMenuWrapper, .messenger .chatBoxWrapper, .messenger .chatOnlineWrapper {
+  padding: 10px;
+  height: 100%;
+}
+
+.messenger .chatBoxBottom {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.messenger .chatMessageInput {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+}
+
+.messenger .chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+.noConversationText {
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
+  color: #e0dcdc;
+  cursor: default;
+}
+
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.conversation .conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversation .conversationName {
+  font-weight: 500;
+}
+
+.conversation:hover {
+  background-color: #f8f8f8;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.message .messageTop {
+  display: flex;
+}
+
+.message .messageTop .messageImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.message .messageTop .messageText {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #1877f2;
+  color: #fff;
+  max-width: 300px;
+}
+
+.message .messageBottom {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.own {
+  align-items: flex-end;
+}
+
+.own .messageText {
+  background-color: #faf9f9 !important;
+  color: black !important;
+}
+
+.chatOnline .chatOnlineFriend {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.chatOnline .chatOnlineFriend .chatOnlineImgContainer {
+  position: relative;
+  margin-right: 10px;
+}
+
+.chatOnline .chatOnlineFriend .chatOnlineImgContainer .chatOnlineImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.chatOnline .chatOnlineFriend .chatOnlineImgContainer .chatOnlineBadge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.chatOnline .chatOnlineFriend .conversationName {
+  font-weight: 500;
+}
+
+.Main_Content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Main_Content .Register_Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 610px;
+  margin: 0 auto;
+}
+
+.Main_Content .Register_Content .Login_main {
+  flex-basis: 70%;
+}
+
+.Main_Content .log_reg {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+  font-size: 22px;
+  width: 40%;
+  line-height: 60px;
+  align-items: center;
+  background-color: #b4afaf;
+}
+
+.Main_Content .log_reg .register {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Main_Content .log_reg .login {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Main_Content form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  justify-content: center;
+}
+
+.Main_Content form .errors {
+  color: red;
+}
+
+.Main_Content form input {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.Main_Content form button {
+  height: 40px;
+  margin: 30px 0;
+  background-color: #b4afaf;
+}
+
+.Main_Content a {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=App.css.map */

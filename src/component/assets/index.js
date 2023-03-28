@@ -1,0 +1,1 @@
+export {default as UserImg} from "../assets/img/user.png"
